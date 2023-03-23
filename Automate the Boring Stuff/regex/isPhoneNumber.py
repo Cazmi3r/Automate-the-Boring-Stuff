@@ -12,7 +12,7 @@ def isPhoneNumber(text):
     if text[7] != '-':
          return False
     for i in range(8, 12):
-       if not text[i].isdecimal():
+           if not text[i].isdecimal():
              return False
     return True
 
